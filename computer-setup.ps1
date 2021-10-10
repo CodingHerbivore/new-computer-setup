@@ -24,14 +24,30 @@ function Start-Chocolatey {
 	choco install 7zip.install -y
 
 	# Firefox
-	Write-Host "Install Firefox"
-	choco install firefox -y
+	Write-Host "Install Brave"
+	choco install Brave -y
 
 	# Foxit Reader
 	Write-Host "Install Foxit"
 	choco install foxitreader -y
 
-	# Steam
+    # Musicbee
+    Write-Host "Install Musicbee"
+	choco install musicbee -y
+
+    # OBS Studio
+    Write-Host "Install OBS"
+	choco install obs-studio -y
+
+    # Paint.net
+    Write-Host "Install Paint.net"
+	choco install paint.net -y
+
+    # Shotcut
+	Write-Host "Install Shotcut"
+	choco install shotcut -y	
+    
+    # Steam
 	Write-Host "Install Steam instead of getting work done"
 	choco install steam-client -y
 
@@ -46,6 +62,7 @@ function Start-Chocolatey {
 	# WinSCP (Fuck Filezilla)
 	Write-Host "Install WinSCP"
 	choco install winscp.install -y
+
 
 }
 #Start-Chocolatey
